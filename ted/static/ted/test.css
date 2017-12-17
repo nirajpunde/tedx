@@ -1,0 +1,44 @@
+#tedimg
+{
+    margin-left: 0px;
+    padding: 0px;
+}
+.responseme
+{
+    width:auto;
+    height:auto;
+    background-size:auto;
+    background:black;
+    
+        
+}
+@media screen and (max-width:758px)
+{
+    color:white;
+    *{
+        margin: 0px;
+    }
+    .responseme-logo
+    {
+        display: inline-block;
+        background:white;
+        border: 1px white;
+    }
+    nav ul,nav:active ul
+    {
+        display: none;
+        position: absolute;
+        z-index: 100px;
+        background: white;
+        right:20px;
+        top:10px;
+        border:2px solid white;
+        
+        
+    }
+    nav li
+    {
+        color:white;
+        background: black;
+    }
+}
