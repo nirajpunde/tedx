@@ -14,7 +14,7 @@ def contact_us(request):
 
 def about_us(request):
     context={}
-    return render(request,"about_us.html",context)
+    return render(request,"page3.html",context)
 
 def ted_com(request):
     context={}

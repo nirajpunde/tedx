@@ -1,0 +1,20 @@
+
+#slider1
+{
+    background-image:url(rsz-poster-8-1026x684.jpg) center no-repeat;
+}
+#slide2
+{
+   align-content: center
+background-image: image('rsz-poster-8-1026x684.jpg) center no-repeat'); 
+}
+body
+{
+
+    background: black;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
